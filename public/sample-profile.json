@@ -1,0 +1,99 @@
+{
+  "username": "Swmarly",
+  "avatar": "https://cdn.anime-planet.com/users/custom-avatar.jpg",
+  "banner": "https://cdn.anime-planet.com/images/kawaii-banner.jpg",
+  "bio": "Magical girl at heart, collector of cute slice-of-life moments.",
+  "stats": {
+    "watching": 12,
+    "completed": 248,
+    "onHold": 7,
+    "dropped": 5,
+    "wantToWatch": 83,
+    "totalEntries": 355,
+    "episodesWatched": 4872
+  },
+  "statuses": [
+    {
+      "slug": "watching",
+      "label": "Currently Watching",
+      "items": [
+        {
+          "title": "Frieren: Beyond Journey's End",
+          "url": "https://www.anime-planet.com/anime/frieren-beyond-journeys-end",
+          "image": "https://cdn.anime-planet.com/anime/primary/frieren-beyond-journeys-end-1.jpg",
+          "progress": "8 / 24 episodes",
+          "notes": "Weekly comfy fantasy nights",
+          "rating": null,
+          "type": "TV"
+        },
+        {
+          "title": "Spy x Family Season 2",
+          "url": "https://www.anime-planet.com/anime/spy-x-family-season-2",
+          "image": "https://cdn.anime-planet.com/anime/primary/spy-x-family-season-2-1.jpg",
+          "progress": "4 / 12 episodes",
+          "notes": "Family shenanigans galore",
+          "rating": "★★★★★",
+          "type": "TV"
+        }
+      ]
+    },
+    {
+      "slug": "completed",
+      "label": "Completed",
+      "items": [
+        {
+          "title": "K-On!",
+          "url": "https://www.anime-planet.com/anime/k-on",
+          "image": "https://cdn.anime-planet.com/anime/primary/k-on-1.jpg",
+          "progress": "13 / 13 episodes",
+          "notes": "Tea, cake, and guitar solos",
+          "rating": "★★★★★",
+          "type": "TV"
+        },
+        {
+          "title": "Sailor Moon Crystal",
+          "url": "https://www.anime-planet.com/anime/sailor-moon-crystal",
+          "image": "https://cdn.anime-planet.com/anime/primary/sailor-moon-crystal-1.jpg",
+          "progress": "39 / 39 episodes",
+          "notes": "Moon prism power!",
+          "rating": "★★★★☆",
+          "type": "TV"
+        },
+        {
+          "title": "A Silent Voice",
+          "url": "https://www.anime-planet.com/anime/a-silent-voice",
+          "image": "https://cdn.anime-planet.com/anime/primary/a-silent-voice-1.jpg",
+          "progress": "Movie",
+          "notes": "Tissues required",
+          "rating": "★★★★★",
+          "type": "Movie"
+        }
+      ]
+    },
+    {
+      "slug": "wantToWatch",
+      "label": "Want to Watch",
+      "items": [
+        {
+          "title": "Laid-Back Camp Season 3",
+          "url": "https://www.anime-planet.com/anime/laid-back-camp-season-3",
+          "image": "https://cdn.anime-planet.com/anime/primary/laid-back-camp-season-3-1.jpg",
+          "progress": "Queued",
+          "notes": "Planning the coziest camping trip",
+          "rating": null,
+          "type": "TV"
+        },
+        {
+          "title": "Cardcaptor Sakura: Clear Card",
+          "url": "https://www.anime-planet.com/anime/cardcaptor-sakura-clear-card",
+          "image": "https://cdn.anime-planet.com/anime/primary/cardcaptor-sakura-clear-card-1.jpg",
+          "progress": "Queued",
+          "notes": "Need more magical key transformations",
+          "rating": null,
+          "type": "TV"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "Offline sample data"
+}

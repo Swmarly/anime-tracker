@@ -1,0 +1,21 @@
+{
+  "name": "anime-tracker",
+  "version": "1.0.0",
+  "description": "Kawaii Anime-Planet list viewer for Swmarly with offline sample support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No automated tests yet\""
+  },
+  "keywords": [
+    "anime",
+    "kawaii",
+    "anime-planet",
+    "scraper",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}

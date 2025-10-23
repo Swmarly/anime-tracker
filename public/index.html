@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swmarly's Kawaii Anime Garden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sparkle-layer" aria-hidden="true"></div>
+    <header class="hero" id="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <div class="hero__avatar">
+          <img id="avatar" alt="Profile avatar" />
+          <span class="hero__status-chip" id="statusChip">Offline Sample</span>
+        </div>
+        <div class="hero__text">
+          <h1 class="hero__title">Swmarly's Cozy Anime Corner</h1>
+          <p class="hero__subtitle" id="bio">
+            Loading sparkling stats...
+          </p>
+          <div class="hero__actions">
+            <label class="input-group">
+              <span class="input-group__label">Profile</span>
+              <input id="usernameInput" type="text" placeholder="Anime-Planet username" value="Swmarly" />
+            </label>
+            <button class="btn btn--primary" id="refreshButton">Fetch ✨</button>
+            <button class="btn btn--ghost" id="sampleButton">Use sample data</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="stats" id="stats">
+        <h2 class="section-title">Magical Stats</h2>
+        <div class="stats__grid" id="statsGrid"></div>
+      </section>
+
+      <section class="search">
+        <div class="search__box">
+          <label class="input-group">
+            <span class="input-group__label">Search your garden</span>
+            <input id="searchInput" type="search" placeholder="Filter by title or vibe..." />
+          </label>
+          <div class="badge-row" id="statusBadges"></div>
+        </div>
+      </section>
+
+      <section class="lists" id="lists"></section>
+    </main>
+
+    <template id="statusTemplate">
+      <section class="list">
+        <div class="list__header">
+          <h3 class="list__title"></h3>
+          <span class="list__count"></span>
+        </div>
+        <div class="list__grid"></div>
+      </section>
+    </template>
+
+    <template id="cardTemplate">
+      <article class="card">
+        <div class="card__media">
+          <img loading="lazy" alt="" />
+          <span class="card__type"></span>
+        </div>
+        <div class="card__body">
+          <h4 class="card__title"></h4>
+          <p class="card__progress"></p>
+          <p class="card__notes"></p>
+        </div>
+        <footer class="card__footer">
+          <span class="card__rating"></span>
+          <a class="card__link" target="_blank" rel="noopener noreferrer">View →</a>
+        </footer>
+      </article>
+    </template>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
