@@ -16,21 +16,14 @@
       <div class="hero__content">
         <div class="hero__avatar">
           <img id="avatar" alt="Profile avatar" />
-          <span class="hero__status-chip" id="statusChip">Offline Sample</span>
+          <span class="hero__status-chip" id="statusChip">Static Snapshot</span>
         </div>
         <div class="hero__text">
-          <h1 class="hero__title">Swmarly's Cozy Anime Corner</h1>
+          <h1 class="hero__title" id="title">Loading your anime garden...</h1>
           <p class="hero__subtitle" id="bio">
             Loading sparkling stats...
           </p>
-          <div class="hero__actions">
-            <label class="input-group">
-              <span class="input-group__label">Profile</span>
-              <input id="usernameInput" type="text" placeholder="Anime-Planet username" value="Swmarly" />
-            </label>
-            <button class="btn btn--primary" id="refreshButton">Fetch ✨</button>
-            <button class="btn btn--ghost" id="sampleButton">Use sample data</button>
-          </div>
+          <p class="hero__updated" id="lastUpdated" hidden></p>
         </div>
       </div>
     </header>

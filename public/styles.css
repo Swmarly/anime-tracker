@@ -140,6 +140,12 @@ body {
   line-height: 1.7;
 }
 
+.hero__updated {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
@@ -279,6 +285,12 @@ body {
   gap: 0.6rem;
 }
 
+.badge-row__empty {
+  margin: 0;
+  color: var(--text-soft);
+  font-style: italic;
+}
+
 .badge {
   padding: 0.55rem 1rem;
   border-radius: 999px;
@@ -330,6 +342,17 @@ body {
   background: rgba(255, 122, 217, 0.12);
   border-radius: 999px;
   padding: 0.35rem 0.8rem;
+}
+
+.stats__empty,
+.lists__empty {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.lists__empty {
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .list__grid {
